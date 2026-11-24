@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy Policy for BTC Interval Timer.">
+  <meta name="theme-color" content="#07142f">
+  <title>Privacy Policy | BTC Interval Timer</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --navy: #07142f;
+      --navy-soft: #10244b;
+      --panel: #132956;
+      --orange: #ff8a2a;
+      --orange-soft: #ffb16d;
+      --text: #f7f9ff;
+      --muted: #b9c5df;
+      --line: #314a78;
+      --max: 68rem;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background:
+        radial-gradient(circle at 85% 8%, rgba(255, 138, 42, 0.12), transparent 25rem),
+        linear-gradient(180deg, #0a1b3b 0%, var(--navy) 38%);
+      color: var(--text);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 16px;
+      line-height: 1.72;
+    }
+
+    a { color: var(--orange-soft); }
+    a:hover { color: #ffd0a7; }
+    a:focus-visible { outline: 3px solid var(--orange); outline-offset: 4px; border-radius: 3px; }
+
+    .site-header,
+    main,
+    .site-footer {
+      width: min(calc(100% - 2rem), var(--max));
+      margin-inline: auto;
+    }
+
+    .site-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1.5rem;
+      padding-block: 1.25rem;
+      border-bottom: 1px solid rgba(185, 197, 223, 0.22);
+    }
+
+    .brand {
+      color: var(--text);
+      font-weight: 800;
+      letter-spacing: 0.05em;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+
+    nav { display: flex; gap: 1rem; flex-wrap: wrap; }
+    nav a { color: var(--muted); font-weight: 700; text-decoration: none; }
+    nav a[aria-current="page"] { color: var(--orange-soft); }
+
+    .intro {
+      padding-block: clamp(3.5rem, 9vw, 7rem) clamp(2.5rem, 6vw, 4rem);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .eyebrow {
+      margin: 0 0 0.75rem;
+      color: var(--orange-soft);
+      font-weight: 800;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    h1, h2, h3 { line-height: 1.18; }
+    h1 { margin: 0; font-size: clamp(2.5rem, 8vw, 5rem); letter-spacing: -0.045em; }
+    h2 { margin: 0 0 1rem; font-size: clamp(1.55rem, 4vw, 2.25rem); }
+    h3 { margin: 1.5rem 0 0.5rem; font-size: 1.1rem; }
+
+    .summary {
+      max-width: 48rem;
+      margin: 1.25rem 0 0;
+      color: var(--muted);
+      font-size: clamp(1.05rem, 2vw, 1.2rem);
+    }
+
+    .effective { margin: 1rem 0 0; color: var(--muted); }
+
+    .policy-layout {
+      display: grid;
+      grid-template-columns: minmax(12rem, 0.3fr) minmax(0, 0.7fr);
+      gap: clamp(2rem, 7vw, 5rem);
+      padding-block: clamp(2.5rem, 7vw, 5rem);
+    }
+
+    .toc {
+      position: sticky;
+      top: 1rem;
+      align-self: start;
+      padding: 1.25rem;
+      border: 1px solid var(--line);
+      border-radius: 0.8rem;
+      background: rgba(16, 36, 75, 0.82);
+    }
+
+    .toc h2 { font-size: 1rem; text-transform: uppercase; letter-spacing: 0.08em; }
+    .toc ol { margin: 0; padding-left: 1.2rem; }
+    .toc li + li { margin-top: 0.55rem; }
+    .toc a { color: var(--muted); text-decoration: none; }
+
+    .policy section {
+      padding-block: 0.5rem 2.5rem;
+      scroll-margin-top: 1rem;
+    }
+
+    .policy section + section {
+      padding-top: 2.5rem;
+      border-top: 1px solid var(--line);
+    }
+
+    .policy p, .policy li { color: var(--muted); }
+    .policy ul { padding-left: 1.25rem; }
+    .policy li + li { margin-top: 0.75rem; }
+
+    .callout {
+      padding: 1.25rem 1.4rem;
+      border-left: 0.3rem solid var(--orange);
+      border-radius: 0.25rem 0.8rem 0.8rem 0.25rem;
+      background: var(--navy-soft);
+    }
+
+    .email-link {
+      display: inline-block;
+      max-width: 100%;
+      overflow-wrap: anywhere;
+      font-weight: 800;
+    }
+
+    .site-footer {
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+      flex-wrap: wrap;
+      padding-block: 1.5rem 2.5rem;
+      border-top: 1px solid rgba(185, 197, 223, 0.22);
+      color: var(--muted);
+    }
+
+    .site-footer p { margin: 0; }
+
+    @media (max-width: 760px) {
+      .site-header { align-items: flex-start; flex-direction: column; }
+      .policy-layout { grid-template-columns: 1fr; }
+      .toc { position: static; }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">BTC Interval Timer</a>
+    <nav aria-label="Primary navigation">
+      <a href="index.html">Support</a>
+      <a href="privacy.html" aria-current="page">Privacy</a>
+    </nav>
+  </header>
+
+  <main>
+    <header class="intro">
+      <p class="eyebrow">Privacy</p>
+      <h1>Privacy Policy</h1>
+      <p class="summary">This policy explains what information BTC Interval Timer stores, what may be processed by its advertising provider, and the choices available to you.</p>
+      <p class="effective"><strong>Effective date:</strong> November 24, 2026</p>
+    </header>
+
+    <div class="policy-layout">
+      <aside class="toc" aria-label="Privacy Policy contents">
+        <h2>Contents</h2>
+        <ol>
+          <li><a href="#overview">Overview</a></li>
+          <li><a href="#local-data">Data stored on your device</a></li>
+          <li><a href="#advertising">Advertising and third parties</a></li>
+          <li><a href="#choices">Your choices</a></li>
+          <li><a href="#retention">Retention and deletion</a></li>
+          <li><a href="#support-data">Support messages</a></li>
+          <li><a href="#website">Website hosting</a></li>
+          <li><a href="#changes">Policy changes</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ol>
+      </aside>
+
+      <article class="policy">
+        <section id="overview">
+          <h2>1. Overview</h2>
+          <p>BTC Interval Timer is a workout timer that lets you create, save, and run interval configurations. You can use the app without creating an account.</p>
+          <p>We do not operate an account system or an application server that receives your saved timer configurations. The app does, however, include Google Mobile Ads, a third-party advertising service that communicates with Google systems.</p>
+        </section>
+
+        <section id="local-data">
+          <h2>2. Data stored on your device</h2>
+          <p>BTC Interval Timer stores the following information locally on your device:</p>
+          <ul>
+            <li>Timer names and configurations, including intervals, rounds, rest periods, and sound selections.</li>
+            <li>Usage history associated with saved timers so the app can suggest timers you commonly use around a similar time of day.</li>
+          </ul>
+          <p>This information is used only to provide app features. We do not receive it. It may be included in your device backup depending on your device and backup settings.</p>
+        </section>
+
+        <section id="advertising">
+          <h2>3. Advertising and third-party processing</h2>
+          <p>BTC Interval Timer uses the Google Mobile Ads SDK to display and measure advertisements. Depending on your device settings, consent choices, location, and Google's configuration, Google Mobile Ads may automatically collect or process information including:</p>
+          <ul>
+            <li>IP address and coarse location inferred from the IP address.</li>
+            <li>Device identifiers, which may include the Apple advertising identifier when permission is granted.</li>
+            <li>Advertising data, such as ads displayed and interactions with those ads.</li>
+            <li>App interactions, performance information, and diagnostic or crash information.</li>
+          </ul>
+          <p>Google may use this information to provide, personalize, measure, and improve advertising and related services. Google's processing is governed by its own policies. Review the <a href="https://policies.google.com/privacy">Google Privacy Policy</a> and Google's <a href="https://developers.google.com/admob/ios/privacy/data-disclosure">Mobile Ads data disclosure</a>.</p>
+          <div class="callout">
+            <strong>Tracking permission:</strong> On iOS, the app asks for permission before allowing access to the advertising identifier for tracking. Declining this request prevents access to that identifier for tracking, but does not necessarily stop all advertising or all data processing described above.
+          </div>
+        </section>
+
+        <section id="choices">
+          <h2>4. Your choices</h2>
+          <ul>
+            <li><strong>Tracking:</strong> Change the app's tracking permission at any time in iOS Settings under Privacy &amp; Security, then Tracking.</li>
+            <li><strong>Personalized advertising:</strong> Your available controls may depend on your region, device settings, and any consent message shown by Google.</li>
+            <li><strong>Saved timers:</strong> Delete individual saved timer configurations from within the app.</li>
+            <li><strong>All local app data:</strong> Deleting the app removes its locally stored app data from the device. Data retained in a device backup is controlled through your backup settings.</li>
+          </ul>
+        </section>
+
+        <section id="retention">
+          <h2>5. Retention and deletion</h2>
+          <p>Locally stored timer information remains on your device until you delete a saved timer, clear the applicable app data, or uninstall the app. Because we do not receive this local information, we cannot delete it remotely.</p>
+          <p>Information processed by Google is retained and deleted according to Google's policies and the controls available through Google and your device.</p>
+        </section>
+
+        <section id="support-data">
+          <h2>6. Information you send to support</h2>
+          <p>If you contact support, we receive the information you choose to include, such as your email address, device details, screenshots, and problem description. We use it to respond to your request, troubleshoot the issue, maintain appropriate records, and protect against misuse.</p>
+          <p>Do not send passwords, financial information, health information, or other sensitive personal information. Support messages are retained only as long as reasonably needed for these purposes or as required by law.</p>
+        </section>
+
+        <section id="website">
+          <h2>7. Support website hosting</h2>
+          <p>This static support website is hosted using GitHub Pages. GitHub may process technical information such as IP addresses and request logs when you visit. That processing is governed by the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>. This website does not use its own analytics, advertising, account system, contact form, or cookies.</p>
+        </section>
+
+        <section id="changes">
+          <h2>8. Changes to this policy</h2>
+          <p>We may update this Privacy Policy when the app, its service providers, or legal requirements change. The effective date at the top of this page identifies the latest version. Material changes will be reflected on this page and, when appropriate, in the app or its store listing.</p>
+        </section>
+
+        <section id="contact">
+          <h2>9. Contact</h2>
+          <p>For privacy questions, support requests, or concerns about this policy, contact:</p>
+          <p><a class="email-link" href="mailto:coachnateboxing@gmail.com">coachnateboxing@gmail.com</a></p>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 BTC Interval Timer</p>
+    <p><a href="index.html">Support</a></p>
+  </footer>
+</body>
+</html>
